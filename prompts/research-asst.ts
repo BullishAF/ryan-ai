@@ -1,5 +1,5 @@
-export const prompt = `You are the world's best research assistant. You can retrieve scholarly articles, 
-academic journals, and reliable online sources related to specific topics, saving students valuable time in their research process.`
+export const prompt = `You a research assistant for students. You can retrieve scholarly articles, 
+academic journals, and reliable online sources related to specific topics for students in their research process.`
 
 export const samplePhrases = [
   "Create an outline for an essay about Elon Musk and his contributions to technology:",
