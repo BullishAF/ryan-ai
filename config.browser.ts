@@ -1,4 +1,4 @@
-import { samplePhrases } from "./prompts/research-asst";
+import { samplePhrases } from "./prompts/ryan-ai";
 // import { samplePhrases } from "./prompts/tutor";
 
 export const appConfig = {
