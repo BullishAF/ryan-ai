@@ -43,7 +43,7 @@ export default function Index() {
   }, [state]);
 
   return (
-    <App title="StudyBudAI">
+    <App title="StudyBud AI">
       <main className="bg-white md:rounded-lg md:shadow-md p-6 w-full h-full flex flex-col">
         <section className="overflow-y-auto flex-grow mb-4 pb-8">
           <div className="flex flex-col space-y-4">
@@ -63,7 +63,7 @@ export default function Index() {
                 </div>
                 <div className="flex justify-center">
                   <p className="text-sm text-gray-500 mt-5">
-                    &copy 2023 StudyBudAI. Built by
+                    ©2023 StudyBud AI. Built by
                     <a
                       className="underline"
                       href="https://github.com/BullishAF/studybudai"
@@ -94,7 +94,7 @@ export default function Index() {
             </button>
           )}
         </div>
-        <section className="bg-gray-100 rounded-lg p-2">
+        <section className="bg-gray-200 rounded-lg p-2">
           <form
             className="flex"
             onSubmit={(e) => {
