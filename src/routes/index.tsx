@@ -43,7 +43,7 @@ export default function Index() {
   }, [state]);
 
   return (
-    <App title="Create your own AI chat bot">
+    <App title="StudyBudAI">
       <main className="bg-white md:rounded-lg md:shadow-md p-6 w-full h-full flex flex-col">
         <section className="overflow-y-auto flex-grow mb-4 pb-8">
           <div className="flex flex-col space-y-4">
@@ -55,7 +55,7 @@ export default function Index() {
                     <button
                       key={phrase}
                       onClick={() => sendMessage(phrase, chatHistory)}
-                      className="bg-gray-100 border-gray-300 border-2 rounded-lg p-4"
+                      className="bg-gray-200 border-gray-500 border-2 rounded-lg p-4"
                     >
                       {phrase}
                     </button>
@@ -63,12 +63,12 @@ export default function Index() {
                 </div>
                 <div className="flex justify-center">
                   <p className="text-sm text-gray-500 mt-5">
-                    Built with 🤖{" "}
+                    &copy 2023 StudyBudAI. Built by
                     <a
                       className="underline"
-                      href="https://github.com/ascorbic/daneel"
+                      href="https://github.com/BullishAF/studybudai"
                     >
-                      Daneel
+                      Ryan Parker
                     </a>
                   </p>
                 </div>
@@ -120,17 +120,17 @@ export default function Index() {
               type="text"
               ref={inputRef}
               className="w-full rounded-l-lg p-2 outline-none"
-              placeholder={state == "idle" ? "Type your message..." : "..."}
+              placeholder={state == "idle" ? "Ask a question..." : "..."}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               disabled={state !== "idle"}
             />
             {state === "idle" ? (
               <button
-                className="bg-blue-700 text-white font-bold py-2 px-4 rounded-r-lg"
+                className="bg-green-400 text-white font-bold py-2 px-4 rounded-r-lg"
                 type="submit"
               >
-                Send
+                Enter
               </button>
             ) : null}
           </form>
