@@ -51,7 +51,7 @@ export function getChatStream(
 export function sanitizeMessages(
   messages: ChatCompletionOptions["messages"],
   historyLength = 8,
-  maxMessageLength = 1000
+  maxMessageLength = 800
 ): ChatCompletionOptions["messages"] {
   return messages.slice(-historyLength).map(({ content, role }) => {
     if (role !== "assistant" && role !== "user") {
