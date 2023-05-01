@@ -1,5 +1,4 @@
-# 🤖 Daneel
-
+# 🤖 StudyBuddy AI 📚
 ## Create your own GPT-powered chat bot
 
 You can use this template to create your own chat bot powered by OpenAI and the
@@ -9,7 +8,7 @@ Tailwind and a Netlify edge function that communicates securely with the OpenAI
 API, and. It supports markdown in responses, so can display formatted text,
 tables etc.
 
-### [Demo site](https://daneel-demo.netlify.app/).
+### [studybuddy-ai.netlify.app](https://studybuddy-ai.netlify.app/).
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ascorbic/daneel)
 
