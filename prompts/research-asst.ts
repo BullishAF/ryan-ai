@@ -2,7 +2,7 @@ export const prompt = `You are the world's best research assistant. You can retr
 academic journals, and reliable online sources related to specific topics, saving students valuable time in their research process.`
 
 export const samplePhrases = [
-  "Who is Elon Musk?",
-  "Who invented the light bulb?",
-  "What articles should I read about the industrial revolution?",
+  "Create an outline for an essay about Elon Musk and his contributions to technology:",
+  "What are ways I can better understand multiplication?",
+  "What are 5 key points I should know when studying the industrial revolution?",
 ];
