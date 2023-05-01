@@ -43,7 +43,7 @@ export default function Index() {
   }, [state]);
 
   return (
-    <App title="StudyBud AI">
+    <App title="Ryan AI">
       <main className="bg-white md:rounded-lg md:shadow-md p-6 w-full h-full flex flex-col">
         <section className="overflow-y-auto flex-grow mb-4 pb-8">
           <div className="flex flex-col space-y-4">
@@ -63,7 +63,7 @@ export default function Index() {
                 </div>
                 <div className="flex justify-center">
                   <p className="text-sm text-gray-500 mt-5">
-                    ©2023 StudyBud AI.
+                    ©2023 Ryan AI.
                     <a
                       className="underline"
                       href="https://github.com/BullishAF/studybudai"
@@ -105,7 +105,7 @@ export default function Index() {
           >
             {chatHistory.length > 1 ? (
               <button
-                className="bg-red-200 text-gray-600 py-2 px-4 rounded-l-lg"
+                className="bg-red-300 text-gray-600 py-2 px-4 rounded-l-lg"
                 type="button"
                 onClick={(e) => {
                   e.preventDefault();
@@ -119,7 +119,7 @@ export default function Index() {
             <input
               type="text"
               ref={inputRef}
-              className="w-full rounded-l-lg p-2 text-slate-500 outline-none"
+              className="w-full rounded-l-lg p-2 text-slate-600 outline-none"
               placeholder={state == "idle" ? "Ask a question..." : "..."}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
