@@ -5,6 +5,8 @@ export const Welcome: React.FC = () => (
       StudyBud AI helps students use AI as a tool to retrieve relevant information, organize resources more effeciently and save valuable time in the learning process. 
       Students can also use StudyBud AI to get subjects explained in ways that will help them better understand it.
     </p>
-    <h3 className="text-2xl font-bold mb-2">You can try some examples below ⬇</h3>
+    </div>
+    <div>
+    <h4 className="text-lg font-bold mb-2">You can try some examples below ⬇</h4>
   </div>
 );
