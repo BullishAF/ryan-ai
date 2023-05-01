@@ -63,7 +63,7 @@ export default function Index() {
                 </div>
                 <div className="flex justify-center">
                   <p className="text-sm text-gray-500 mt-5">
-                    ©2023 StudyBud AI. Built by
+                    ©2023 StudyBud AI.
                     <a
                       className="underline"
                       href="https://github.com/BullishAF/studybudai"
@@ -119,7 +119,7 @@ export default function Index() {
             <input
               type="text"
               ref={inputRef}
-              className="w-full rounded-l-lg p-2 outline-none"
+              className="w-full rounded-l-lg p-2 text-slate-500 outline-none"
               placeholder={state == "idle" ? "Ask a question..." : "..."}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
