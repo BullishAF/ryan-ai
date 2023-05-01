@@ -68,7 +68,7 @@ export default function Index() {
                       className="underline"
                       href="https://github.com/BullishAF/studybudai"
                     >
-                      Ryan Parker
+                       Ryan Parker
                     </a>
                   </p>
                 </div>
@@ -105,7 +105,7 @@ export default function Index() {
           >
             {chatHistory.length > 1 ? (
               <button
-                className="bg-gray-100 text-gray-600 py-2 px-4 rounded-l-lg"
+                className="bg-red-200 text-gray-600 py-2 px-4 rounded-l-lg"
                 type="button"
                 onClick={(e) => {
                   e.preventDefault();
@@ -113,7 +113,7 @@ export default function Index() {
                   setMessage("");
                 }}
               >
-                Clear
+                Reset
               </button>
             ) : null}
             <input
