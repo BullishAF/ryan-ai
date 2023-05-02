@@ -47,7 +47,7 @@ export const ChatMessage: React.FC<React.PropsWithChildren<Props>> = ({
     </div>
   ) : (
     <div className="flex items-end justify-left">
-      <div className="bg-gray-200 border-gray-100 border-2 rounded-lg p-2 mr-20 w-full text-base/loose">
+      <div className="bg-slate-50 border-gray-600 border-2 rounded-lg p-2 mr-20 w-full text-base/loose">
         <ReactMarkdown
           children={message.content}
           remarkPlugins={[remarkGfm]}
