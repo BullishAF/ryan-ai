@@ -24,6 +24,7 @@ const CustomTable: FunctionComponent<
     ReactMarkdownProps
 > = ({ children, ...props }) => {
   return (
+    <h1 className="text-center text-2xl font-bold mb-2">🤖 Ryan-AI</h1>
     <div className="overflow-x-auto">
       <table {...props} className="w-full text-center border-collapse table-auto">
         {children}
@@ -42,13 +43,13 @@ export const ChatMessage: React.FC<React.PropsWithChildren<Props>> = ({
 }) =>
   message.role === "user" ? (
     <div className="flex items-end justify-left">
-      <div className="bg-gray-300 border-gray-500 border-2 rounded-lg p-2 max-w-lg">
+      <div className="bg-gray-300 border-gray-600 border-2 rounded-lg p-2 max-w-lg">
         <p className="text-base/loose">{message.content}</p>
       </div>
     </div>
   ) : (
     <div className="flex items-end justify-left">
-      <div className="bg-gray-200 border-gray-700 border-2 rounded-lg p-2 mr-20 w-full text-base/loose">
+      <div className="bg-gray-200 border-gray-100 border-2 rounded-lg p-2 mr-20 w-full text-base/loose">
         <ReactMarkdown
           children={message.content}
           remarkPlugins={[remarkGfm]}
