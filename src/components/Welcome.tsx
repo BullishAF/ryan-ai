@@ -5,8 +5,8 @@ export const Welcome: React.FC = () => (
       Don't worry, I'm way smarter than Ryan(The human version) that built me  😉
     </p>
      <p className="text-center text-lg text-base/loose">
-       Ask questions or chat in the text box below.
+       Ask questions or chat in the text box.
     </p>
-    <p className="text-green-500 text-sm font-medium mb-2 italic">You can try some examples below ⬇</p>
+    <p className="text-center text-md font-medium mb-2 italic">Try some examples below ⬇</p>
   </div>
 );
