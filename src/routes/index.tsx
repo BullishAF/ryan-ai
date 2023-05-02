@@ -33,14 +33,14 @@ export default function Index() {
 
   // This is a ref to the input box. We use it to focus the input box when the
   // user clicks on the "Send" button.
-  const inputRef = useRef<HTMLInputElement>(null);
-  const focusInput = () => {
-    inputRef.current?.focus();
-  };
+  //const inputRef = useRef<HTMLInputElement>(null);
+ // const focusInput = () => {
+  //  inputRef.current?.focus();
+ // };
 
-  useEffect(() => {
-    focusInput();
-  }, [state]);
+ // useEffect(() => {
+ //   focusInput();
+ // }, [state]);
 
   return (
     <App title="Ryan AI">
@@ -123,6 +123,8 @@ export default function Index() {
               </button>
             ) : null}
           </form>
+           </section>
+
               <div className="flex justify-center">
                   <p className="text-sm text-gray-500 mt-5">
                     ©2023 Ryan AI.
@@ -134,7 +136,6 @@ export default function Index() {
                     </a>
                   </p>
                 </div>
-        </section>
       </main>
     </App>
   );
