@@ -4,9 +4,9 @@ export const Welcome: React.FC = () => (
     <p className="text-center text-lg text-base/loose">
       Don't worry, I'm way smarter than Ryan(The human version) that built me  😉
     </p>
-     <p className="text-center text-lg text-base/loose">
+      <div>
        Ask questions or chat in the text box.
-    </p>
+       </div>
     <p className="text-center text-md font-medium mb-2 italic">Try some examples below ⬇</p>
   </div>
 );
