@@ -24,7 +24,6 @@ const CustomTable: FunctionComponent<
     ReactMarkdownProps
 > = ({ children, ...props }) => {
   return (
-    <h1 className="text-center text-2xl font-bold mb-2">🤖 Ryan-AI</h1>
     <div className="overflow-x-auto">
       <table {...props} className="w-full text-center border-collapse table-auto">
         {children}
@@ -37,7 +36,6 @@ const CustomTable: FunctionComponent<
  * This component renders a single chat message. It is rendered according to
  * whether it is a  message from the assistant or the user.
  */
-
 export const ChatMessage: React.FC<React.PropsWithChildren<Props>> = ({
   message,
 }) =>
