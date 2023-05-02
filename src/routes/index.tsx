@@ -33,14 +33,14 @@ export default function Index() {
 
   // This is a ref to the input box. We use it to focus the input box when the
   // user clicks on the "Send" button.
-  //const inputRef = useRef<HTMLInputElement>(null);
- // const focusInput = () => {
-  //  inputRef.current?.focus();
- // };
+  const inputRef = useRef<HTMLInputElement>(null);
+  const focusInput = () => {
+  inputRef.current?.focus();
+ };
 
- // useEffect(() => {
- //   focusInput();
- // }, [state]);
+   useEffect(() => {
+   focusInput();
+  }, [state]);
 
   return (
     <App title="Ryan AI">
