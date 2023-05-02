@@ -60,18 +60,7 @@ export default function Index() {
                       {phrase}
                     </button>
                   ))}
-                </div>
-                <div className="flex justify-center">
-                  <p className="text-sm text-gray-500 mt-5">
-                    ©2023 Ryan AI.
-                    <a
-                      className="underline"
-                      href="https://github.com/BullishAF/studybudai"
-                    >
-                       Ryan Parker
-                    </a>
-                  </p>
-                </div>
+            </div>
               </>
             ) : (
               chatHistory.map((chat, i) => (
@@ -134,6 +123,17 @@ export default function Index() {
               </button>
             ) : null}
           </form>
+              <div className="flex justify-center">
+                  <p className="text-sm text-gray-500 mt-5">
+                    ©2023 Ryan AI.
+                    <a
+                      className="underline"
+                      href="https://github.com/BullishAF/studybudai"
+                    >
+                       Ryan Parker
+                    </a>
+                  </p>
+                </div>
         </section>
       </main>
     </App>
