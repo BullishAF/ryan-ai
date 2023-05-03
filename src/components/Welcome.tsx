@@ -6,3 +6,4 @@ export const Welcome: React.FC = () => (
   </div>
    
   </div>
+);
