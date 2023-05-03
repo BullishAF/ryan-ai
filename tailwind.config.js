@@ -18,12 +18,12 @@ export default {
             borderColor: "transparent"
           },
           "100%": {
-            borderColor: "white"
+            borderColor: "black"
           }  
         }
       },
       animation: {
-        typing: "typing 2s steps(20) , blink 7s"
+        typing: "typing 2s steps(20) , blink 5s"
       }    
     },
   },
