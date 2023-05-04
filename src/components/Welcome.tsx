@@ -1,7 +1,11 @@
 export const Welcome: React.FC = () => (
-  <div className="bg-white border-gray-200 border-2 rounded-lg px-8 py-5 mr-20 w-full"> 
-  <div class="w-max">
-  <h1 class="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-5xl text-green-500 text-center">Hello, I'm Ryan AI. Ask me questions or let's chat</h1>
-  </div>
+  <div className="bg-white border-gray-100 border-2 rounded-lg px-8 py-5 mr-20 w-full">
+    <h1 className="text-2xl font-bold mb-2">🤖 Hello, I am Ryan AI</h1>
+    <p className="text-xl font-normal mb-2">
+      I'm an AI that can answer questions or chat, so feel free to ask me a question.
+    </p>
+    <p className="text-xl font-normal mb-2">
+      Try an example below ⬇   
+    </p>
 </div>
-);
+    );
