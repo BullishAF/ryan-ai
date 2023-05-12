@@ -43,8 +43,8 @@ export default function Index() {
   }, [state]);
 
   return (
-    <App title="Ryan AI">
-      <main className="bg-white md:rounded-lg md:shadow-md p-6 w-full h-full flex flex-col">
+    <App title="Satoshi AI">
+      <main className="bg-slate-200 md:rounded-lg md:shadow-md p-6 w-full h-full flex flex-col">
         <section className="overflow-y-auto flex-grow mb-4 pb-8">
           <div className="flex flex-col space-y-4">
             {chatHistory.length === 0 ? (
@@ -55,7 +55,7 @@ export default function Index() {
                     <button
                       key={phrase}
                       onClick={() => sendMessage(phrase, chatHistory)}
-                      className="bg-gray-200 border-gray-500 border-2 rounded-lg p-4"
+                      className="bg-gray-200 border-gray-700 border-2 rounded-lg p-4"
                     >
                       {phrase}
                     </button>
@@ -94,7 +94,7 @@ export default function Index() {
           >
             {chatHistory.length > 1 ? (
               <button
-                className="bg-red-300 text-gray-600 py-2 px-4 rounded-l-lg"
+                className="bg-red-300 text-white py-2 px-4 rounded-l-lg"
                 type="button"
                 onClick={(e) => {
                   e.preventDefault();
@@ -127,13 +127,7 @@ export default function Index() {
 
               <div className="flex justify-center">
                   <p className="text-sm text-gray-500 mt-5">
-                    ©2023 Ryan AI.
-                    <a
-                      className="underline"
-                      href="https://github.com/BullishAF/studybudai"
-                    >
-                       Ryan Parker
-                    </a>
+                    ©2023 Satoshi AI.
                   </p>
                 </div>
       </main>
