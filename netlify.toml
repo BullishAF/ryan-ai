@@ -5,4 +5,4 @@ command = "npm run build"
 command = "npm run dev"
 
 [template.environment]
-OPENAI_API_KEY = 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
+OPENAI_API_KEY = 
