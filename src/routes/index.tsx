@@ -55,7 +55,7 @@ export default function Index() {
                     <button
                       key={phrase}
                       onClick={() => sendMessage(phrase, chatHistory)}
-                      className="bg-gray-200 border-gray-700 border-2 rounded-lg p-4"
+                      className="bg-slate-50 border-gray-700 border-2 rounded-lg p-4"
                     >
                       {phrase}
                     </button>
@@ -94,7 +94,7 @@ export default function Index() {
           >
             {chatHistory.length > 1 ? (
               <button
-                className="bg-red-300 text-white py-2 px-4 rounded-l-lg"
+                className="bg-red-500 text-white py-2 px-4 rounded-l-lg"
                 type="button"
                 onClick={(e) => {
                   e.preventDefault();
@@ -108,7 +108,7 @@ export default function Index() {
             <input
               type="text"
               ref={inputRef}
-              className="w-full rounded-l-lg p-2 text-slate-600 outline-none"
+              className="w-full rounded-l-lg p-2 text-slate-800 outline-gray-700"
               placeholder={state == "idle" ? "Ask a question..." : "..."}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
@@ -116,7 +116,7 @@ export default function Index() {
             />
             {state === "idle" ? (
               <button
-                className="bg-green-400 text-white font-bold py-2 px-4 rounded-r-lg"
+                className="bg-green-600 text-white font-bold py-2 px-4 rounded-r-lg"
                 type="submit"
               >
                 Enter
@@ -126,7 +126,7 @@ export default function Index() {
            </section>
 
               <div className="flex justify-center">
-                  <p className="text-sm text-gray-500 mt-5">
+                  <p className="text-sm text-gray-800 mt-5">
                     ©2023 Ryan AI.
                   </p>
                 </div>
