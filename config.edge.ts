@@ -1,6 +1,6 @@
 import type { AppConfig } from "./lib/edge/types.ts";
 
-import { prompt } from "./prompts/satoshi-ai.ts";
+import { prompt } from "./prompts/ryan-ai.ts";
 // import { prompt } from "./prompts/tutor.ts";
 
 export const appConfig: AppConfig = {
