@@ -108,8 +108,8 @@ export default function Index() {
             <input
               type="text"
               ref={inputRef}
-              className="w-full rounded-l-lg p-2 text-slate-800 outline-gray-700"
-              placeholder={state == "idle" ? "Ask a question..." : "..."}
+              className="w-full md:w-auto rounded-l-lg p-2 text-slate-800 outline-gray-700"
+              placeholder={state == "idle" ? "Ask a question or chat..." : "..."}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               disabled={state !== "idle"}
