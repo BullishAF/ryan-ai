@@ -43,7 +43,7 @@ export default function Index() {
   }, [state]);
 
   return (
-    <App title="Satoshi AI">
+    <App title="Ryan AI">
       <main className="bg-slate-200 md:rounded-lg md:shadow-md p-6 w-full h-full flex flex-col">
         <section className="overflow-y-auto flex-grow mb-4 pb-8">
           <div className="flex flex-col space-y-4">
@@ -127,7 +127,7 @@ export default function Index() {
 
               <div className="flex justify-center">
                   <p className="text-sm text-gray-500 mt-5">
-                    ©2023 Satoshi AI.
+                    ©2023 Ryan AI.
                   </p>
                 </div>
       </main>
